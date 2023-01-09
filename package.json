@@ -4,7 +4,7 @@
   "description": "Este Landing fue en el curso de Async De Oscar Baraja Tavares",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy":"gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Inmortalini/landing-pbv/issues"
   },
-  "homepage": "https://github.com/Inmortalini/landing-pbv#readme"
+  "homepage": "https://github.com/Inmortalini/landing-pbv#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
