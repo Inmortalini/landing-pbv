@@ -4,7 +4,7 @@
   "description": "Este Landing fue en el curso de Async De Oscar Baraja Tavares",
   "main": "index.js",
   "scripts": {
-    "deploy":"gh-pages -d src"
+    "deploy":"gh-pages -d assets"
   },
   "repository": {
     "type": "git",
